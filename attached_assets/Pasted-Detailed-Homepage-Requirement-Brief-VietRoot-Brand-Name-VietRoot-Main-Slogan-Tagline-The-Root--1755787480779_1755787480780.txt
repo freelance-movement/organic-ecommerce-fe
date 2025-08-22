@@ -1,0 +1,138 @@
+Detailed Homepage Requirement Brief - VietRoot
+Brand Name: VietRoot
+
+Main Slogan/Tagline: "The Root of Goodness, The Taste of Vietnam"
+
+Primary Color Palette:
+
+Green: Represents nature, freshness, vitality, and organic products. (Suggested hex codes: #4A7729, #6A994E, #A7C957)
+
+Yellow/Earthy Tones: Symbolizes sunshine, warmth, prosperity, the color of honey, and fertile land. (Suggested hex codes: #F2E8CF, #BC9C22, #DDA15E)
+
+Background/Accent Colors: Creamy white or light gray to create a clean, airy feel and make the products stand out.
+
+Overall Style: Modern, minimalist, warm, close to nature, and trustworthy. Emphasizes the use of high-quality, authentic imagery.
+
+1. Hero Section
+This is the first and most impactful area for customers.
+
+Visuals:
+
+Use the provided static image as the full-width background. The image features a vibrant, clean flat lay of fresh fruits (kiwi, orange, strawberry) and a glass jar, creating a feeling of freshness and natural ingredients.
+
+Text Placement & Style:
+
+The text content should be strategically placed in the large, empty space on the right side of the image to ensure readability and a balanced composition.
+
+Use a dark green color (e.g., #4A7729) from the palette for the text to create strong contrast against the light yellow background. An overlay is likely not needed.
+
+Text Content:
+
+Tagline (large, prominent):
+
+The Root of Goodness, The Taste of Vietnam
+
+Short Description (below the tagline):
+
+Discover exquisite organic products, bursting with the fresh, natural flavors of our homeland.
+
+Call-to-Action (CTA) Button:
+
+A prominent button in a contrasting green (e.g., #6A994E).
+
+Button Text: Discover Now or Shop Now
+
+Effect: The button could scale up slightly on hover.
+
+2. Quick Intro to VietRoot
+This section helps customers understand the brand's story and core values.
+
+Headline:
+
+VietRoot: Where the Essence of Vietnam Converges
+
+Layout: A two-column layout on desktop, stacking on mobile.
+
+Left Column (Text Content):
+
+Born from a love for Vietnamese agriculture and a desire to bring truly "clean" products to consumers, VietRoot is a journey back to our origins. We connect directly with dedicated farmers across the country, committed to delivering organic products that are not only delicious but also healthy and environmentally sustainable.
+
+Our Values:
+
+Transparency: Clear and traceable origins.
+
+Sustainability: Eco-friendly farming practices.
+
+Community: Supporting local farmers.
+
+Right Column (Image):
+
+An authentic, warm photo of the founders or a smiling farmer next to their produce. The image should have natural lighting to create a sense of connection.
+
+3. Featured Products
+Showcase the best-selling or promotional items to entice customers to shop.
+
+Headline:
+
+Our Most Loved Products
+
+Layout: A carousel or a grid displaying 4-8 products.
+
+Product Card Design:
+
+Image: High-quality product photo with a light background, showcasing freshness and appeal.
+
+Product Name: Clear and concise (e.g., "Wild Ha Giang Honey").
+
+Short Description (1 line): Highlight a key feature (e.g., "Pure, naturally harvested").
+
+Price: Clearly displayed.
+
+CTA Button: A shopping cart icon or an "Add to Cart" button.
+
+Effect: On hover, the product image could zoom in slightly, and the action buttons become more prominent.
+
+4. Call-to-Action Section
+This section provides different engagement paths for users beyond just shopping.
+
+Layout: Three distinct blocks placed side-by-side, each with an icon, headline, short description, and a button.
+
+Block 1: Shop
+
+Icon: 
+
+Aleaforshoppingbasketicon
+Headline: Explore Our Store
+
+Description: Browse our diverse collection of organic products, carefully selected from all over the country.
+
+Button: Go to Store
+
+Block 2: Partner
+
+Icon: 
+
+Ahandshakeorcommunityicon
+Headline: Become a Partner
+
+Description: Are you a farmer or an organic co-op? Join VietRoot in celebrating the value of Vietnamese produce.
+
+Button: Learn About Partnership
+
+Block 3: Learn More (Blog/Stories)
+
+Icon: 
+
+Abookorsprouticon
+Headline: VietRoot's Journal
+
+Description: Read our stories about farmers, cultivation processes, and healthy recipes.
+
+Button: Read More
+
+Other General Requirements:
+Typography: Use a modern, readable sans-serif font (e.g., Inter, Montserrat, Be Vietnam Pro).
+
+Responsive Design: The interface must look great and function perfectly on all devices (Desktop, Tablet, Mobile).
+
+Page Speed Optimization: Images should be compressed and optimized for fast loading times.

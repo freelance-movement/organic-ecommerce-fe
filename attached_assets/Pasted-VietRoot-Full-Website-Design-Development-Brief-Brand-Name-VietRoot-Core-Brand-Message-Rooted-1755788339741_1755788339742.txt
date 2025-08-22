@@ -1,0 +1,139 @@
+VietRoot - Full Website Design & Development Brief
+Brand Name: VietRoot
+
+Core Brand Message: “Rooted in Vietnam. Growing for the World.”
+
+1. Core Purpose of the Site
+Tell our brand story: Convey our mission of being "Rooted in Vietnam. Growing for the World."
+
+Introduce products: Showcase our range of organic teas, herbs, powders, and wellness items.
+
+Attract partners: Serve as a professional platform to engage potential partners, investors, and retailers.
+
+Build a community: Foster a community through authentic storytelling, cultural insights, and wellness education.
+
+Enable direct sales: Integrate a seamless e-commerce experience (e.g., Shopify).
+
+2. Visual & Design Direction
+Style: Clean, modern, and minimalist, yet deeply rooted in culture. Utilize warm, earthy tones (deep green, gold, clay) and natural textures.
+
+Photography: High-quality, professional images are crucial. Focus on farms, herbs, beautiful packaging, and lifestyle shots (tea rituals, family moments).
+
+Typography: Simple, highly readable fonts. Consider a blend of a cultural-accented serif for headings and a clean sans-serif for body text.
+
+Mood: Wholesome, premium, authentic, and international.
+
+3. Key Pages to Include
+A. Home Page
+Hero Section:
+
+Visuals: Use the provided static image as a full-width background, featuring a vibrant flat lay of fresh fruits.
+
+Text Content: Placed on the right side, with the tagline in large, prominent dark green text.
+
+Tagline: "The Root of Goodness, The Taste of Vietnam"
+
+Description: "Discover exquisite organic products, bursting with the fresh, natural flavors of our homeland."
+
+CTA Button: A prominent green button with text Discover Now.
+
+Quick Intro to VietRoot:
+
+Headline: "VietRoot: Where the Essence of Vietnam Converges"
+
+Content: A brief introduction to our mission, values (Transparency, Sustainability, Community), and a warm, authentic photo of our people or partners.
+
+Featured Products:
+
+Headline: "Our Most Loved Products"
+
+Layout: A carousel or grid showcasing 4-8 top-selling items with high-quality images, names, short descriptions, prices, and an "Add to Cart" button.
+
+Newsletter Signup Section:
+
+Headline: "Join the VietRoot Family"
+
+Description: "Subscribe to receive updates, exclusive offers, and stories from our farms."
+
+Form: A simple, clean form requesting Name, Email, and Phone Number.
+
+CTA Button: Subscribe
+
+Main Call-to-Action Section:
+
+Three distinct blocks to guide users:
+
+Explore Our Store: For customers ready to shop.
+
+Become a Partner: For B2B inquiries.
+
+VietRoot's Journal: For those wanting to learn more about our story.
+
+B. About Us
+Our Story: A detailed narrative about VietRoot's origins in Vietnam, our mission for clean agriculture, our vision for global trade, and the legacy we aim to build.
+
+Founder’s Note: A personal yet professional message from the founder.
+
+Our Vision: A timeline or a visual map showcasing our journey and future goals.
+
+C. Products / Shop
+Layout: A clean, easy-to-navigate shop page with clear categories.
+
+Categories: Teas, Powders, Herbal Remedies.
+
+Individual Product Pages: Each page must include:
+
+Multiple high-quality photos.
+
+Detailed descriptions.
+
+List of benefits and uses.
+
+Certifications and sourcing information.
+
+E-commerce Integration: Easy and secure checkout process (via Shopify, WooCommerce, etc.).
+
+D. Impact / Storytelling
+Content Focus: This page is the heart of our brand.
+
+Farmer Stories: Highlight the farmers we partner with through authentic photos and short, emotional stories.
+
+Cultural Roots: Explain the cultural significance of our products and practices.
+
+"Why It Matters" Section: A clear explanation of our commitment to sustainable and ethical practices.
+
+E. Partnerships / Wholesale / Investors
+Value Proposition: Clearly articulate "Why partner with VietRoot."
+
+Resources: Provide a downloadable wholesale line sheet and/or a pitch deck for investors.
+
+Contact Form: A dedicated form for professional inquiries.
+
+F. Blog / Journal
+Purpose: A powerful tool for SEO and storytelling.
+
+Content Ideas: Articles on the benefits of herbs, wellness tips, Vietnamese traditions, sustainability news, and farmer spotlights.
+
+G. Contact Us
+Simplicity: A simple contact form and clearly displayed social media links.
+
+Direct Access: Include a direct email link and consider a WhatsApp chat integration for instant communication.
+
+4. Functional Requirements
+Design: Mobile-first and fully responsive.
+
+E-commerce: Ready for integration with Shopify or WooCommerce.
+
+Marketing: A robust newsletter signup system (for "VietRoot Box" & updates).
+
+Performance: SEO optimized, fast load speeds, and a secure checkout are mandatory.
+
+CMS: The backend should be easy for a non-technical person to update products and blog posts.
+
+5. Calls-to-Action (CTAs)
+Primary: Shop Now / Buy Now
+
+Secondary: Learn More, Partner With Us, Subscribe for Updates
+
+NOTE: Project Workflow
+A first draft mockup (wireframe) of the key pages is required before beginning the coding and development phase.

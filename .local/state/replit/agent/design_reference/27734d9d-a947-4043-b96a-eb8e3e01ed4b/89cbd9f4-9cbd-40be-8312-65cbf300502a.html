@@ -1,0 +1,414 @@
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietRoot - The Root of Goodness, The Taste of Vietnam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'viet-green': {
+                            'dark': '#4A7729',
+                            'medium': '#6A994E',
+                            'light': '#A7C957'
+                        },
+                        'viet-earth': {
+                            'cream': '#F2E8CF',
+                            'gold': '#BC9C22',
+                            'orange': '#DDA15E'
+                        }
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="font-inter text-gray-800 bg-gray-50">
+    
+    <!-- @COMPONENT: Navigation -->
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-leaf text-viet-green-medium text-2xl mr-2"></i>
+                        <span class="font-bold text-xl text-viet-green-dark">VietRoot</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#" class="text-gray-700 hover:text-viet-green-medium transition-colors duration-200 px-3 py-2 text-sm font-medium">Trang chủ</a>
+                        <a href="#" class="text-gray-700 hover:text-viet-green-medium transition-colors duration-200 px-3 py-2 text-sm font-medium">Sản phẩm</a>
+                        <a href="#" class="text-gray-700 hover:text-viet-green-medium transition-colors duration-200 px-3 py-2 text-sm font-medium">Về chúng tôi</a>
+                        <a href="#" class="text-gray-700 hover:text-viet-green-medium transition-colors duration-200 px-3 py-2 text-sm font-medium">Blog</a>
+                        <a href="#" class="text-gray-700 hover:text-viet-green-medium transition-colors duration-200 px-3 py-2 text-sm font-medium">Liên hệ</a>
+                    </div>
+                </div>
+                
+                <!-- Cart and Mobile Menu -->
+                <div class="flex items-center space-x-4">
+                    <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center">
+                        <i class="fas fa-shopping-cart mr-2"></i>
+                        <span class="hidden sm:inline">Giỏ hàng</span>
+                    </button>
+                    <!-- Mobile menu button -->
+                    <button class="md:hidden text-gray-700 hover:text-viet-green-medium">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- @END_COMPONENT: Navigation -->
+
+    <!-- @COMPONENT: HeroSection -->
+    <!-- Hero Section -->
+    <section class="relative min-h-[600px] md:min-h-[700px] flex items-center" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=='); background-color: #F2E8CF;">
+        <!-- Using provided image as background -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-90" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=');">
+            <!-- Fruit flat lay background will be applied here -->
+        </div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <!-- Left column - empty space for image -->
+                <div class="hidden lg:block">
+                    <!-- This space is for the fruit jar image part -->
+                </div>
+                
+                <!-- Right column - Text content -->
+                <div class="text-center lg:text-left lg:pl-8 bg-white bg-opacity-90 lg:bg-transparent p-6 lg:p-0 rounded-xl lg:rounded-none">
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-viet-green-dark leading-tight mb-6">
+                        The Root of Goodness,<br>
+                        <span class="text-viet-earth-gold">The Taste of Vietnam</span>
+                    </h1>
+                    
+                    <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+                        Discover exquisite organic products, bursting with the fresh, natural flavors of our homeland.
+                    </p>
+                    
+                    <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                        <i class="fas fa-arrow-right mr-2"></i>
+                        Discover Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: HeroSection -->
+
+    <!-- @COMPONENT: QuickIntro -->
+    <!-- Quick Intro Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-viet-green-dark mb-4">
+                    VietRoot: Where the Essence of Vietnam Converges
+                </h2>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column - Text Content -->
+                <div class="space-y-6">
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Born from a love for Vietnamese agriculture and a desire to bring truly "clean" products to consumers, VietRoot is a journey back to our origins. We connect directly with dedicated farmers across the country, committed to delivering organic products that are not only delicious but also healthy and environmentally sustainable.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <h3 class="text-xl font-semibold text-viet-green-dark mb-4">Our Values:</h3>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-search text-viet-green-medium text-xl mt-1"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Transparency</h4>
+                                <p class="text-gray-600">Clear and traceable origins.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-leaf text-viet-green-medium text-xl mt-1"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Sustainability</h4>
+                                <p class="text-gray-600">Eco-friendly farming practices.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-users text-viet-green-medium text-xl mt-1"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Community</h4>
+                                <p class="text-gray-600">Supporting local farmers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Image -->
+                <div class="lg:order-last">
+                    <!-- A smiling farmer next to their fresh vegetables in a sunlit field -->
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Vietnamese farmer with fresh organic produce" class="rounded-xl shadow-lg w-full h-auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: QuickIntro -->
+
+    <!-- @COMPONENT: FeaturedProducts -->
+    <!-- Featured Products Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-viet-green-dark mb-4">
+                    Our Most Loved Products
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Handpicked organic treasures from across Vietnam
+                </p>
+            </div>
+            
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
+                    <!-- Glass jar filled with golden honey against white background -->
+                    <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Wild Ha Giang Honey" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Wild Ha Giang Honey</h3>
+                        <p class="text-gray-600 text-sm mb-3">Pure, naturally harvested</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-viet-earth-gold">₫450,000</span>
+                            <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                                <i class="fas fa-shopping-cart mr-1"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
+                    <!-- Fresh organic tea leaves in traditional Vietnamese packaging -->
+                    <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Organic Green Tea" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Organic Green Tea</h3>
+                        <p class="text-gray-600 text-sm mb-3">Hand-picked from Thai Nguyen</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-viet-earth-gold">₫320,000</span>
+                            <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                                <i class="fas fa-shopping-cart mr-1"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
+                    <!-- Dried jackfruit slices in clear packaging -->
+                    <img src="https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Dried Jackfruit" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Dried Jackfruit</h3>
+                        <p class="text-gray-600 text-sm mb-3">Sweet & natural, no additives</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-viet-earth-gold">₫180,000</span>
+                            <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                                <i class="fas fa-shopping-cart mr-1"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Card 4 -->
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
+                    <!-- Organic coconut oil in traditional Vietnamese glass bottle -->
+                    <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" alt="Virgin Coconut Oil" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Virgin Coconut Oil</h3>
+                        <p class="text-gray-600 text-sm mb-3">Cold-pressed, Ben Tre origin</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-xl font-bold text-viet-earth-gold">₫280,000</span>
+                            <button class="bg-viet-green-medium hover:bg-viet-green-dark text-white px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                                <i class="fas fa-shopping-cart mr-1"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View All Products Button -->
+            <div class="text-center mt-12">
+                <button class="bg-viet-green-dark hover:bg-viet-green-medium text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-200">
+                    View All Products
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: FeaturedProducts -->
+
+    <!-- @COMPONENT: CallToActionBlocks -->
+    <!-- Call-to-Action Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Block 1: Shop -->
+                <div class="text-center p-8 bg-viet-earth-cream rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-viet-green-medium w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-viet-green-dark mb-4">Explore Our Store</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Browse our diverse collection of organic products, carefully selected from all over the country.
+                    </p>
+                    <button class="bg-viet-green-dark hover:bg-viet-green-medium text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
+                        Go to Store
+                    </button>
+                </div>
+                
+                <!-- Block 2: Partner -->
+                <div class="text-center p-8 bg-viet-earth-cream rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-viet-earth-gold w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-viet-green-dark mb-4">Become a Partner</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Are you a farmer or an organic co-op? Join VietRoot in celebrating the value of Vietnamese produce.
+                    </p>
+                    <button class="bg-viet-earth-gold hover:bg-viet-earth-orange text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
+                        Learn About Partnership
+                    </button>
+                </div>
+                
+                <!-- Block 3: Learn More -->
+                <div class="text-center p-8 bg-viet-earth-cream rounded-xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="bg-viet-green-light w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-viet-green-dark mb-4">VietRoot's Journal</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Read our stories about farmers, cultivation processes, and healthy recipes.
+                    </p>
+                    <button class="bg-viet-green-light hover:bg-viet-green-medium text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
+                        Read More
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: CallToActionBlocks -->
+
+    <!-- @COMPONENT: Footer -->
+    <!-- Footer -->
+    <footer class="bg-viet-green-dark text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-leaf text-viet-green-light text-2xl mr-2"></i>
+                        <span class="font-bold text-xl">VietRoot</span>
+                    </div>
+                    <p class="text-gray-300 mb-4 leading-relaxed">
+                        The Root of Goodness, The Taste of Vietnam. Bringing you the finest organic products from Vietnamese farmers.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-viet-green-light transition-colors duration-200">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-viet-green-light transition-colors duration-200">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-viet-green-light transition-colors duration-200">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">About Us</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Products</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Partnership</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Blog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Categories -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Organic Honey</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Green Tea</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Dried Fruits</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Coconut Products</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Spices</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Contact Info</h3>
+                    <div class="space-y-2 text-gray-300">
+                        <p class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Ho Chi Minh City, Vietnam
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fas fa-phone mr-2"></i>
+                            +84 123 456 789
+                        </p>
+                        <p class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            hello@vietroot.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="border-t border-viet-green-medium mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2024 VietRoot. All rights reserved. Made with ❤️ in Vietnam.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+        // Simple mobile menu toggle functionality
+        (function() {
+            // TODO: Implement mobile menu toggle functionality
+            // TODO: Add smooth scrolling for navigation links
+            // TODO: Implement product filtering and search
+            // TODO: Add shopping cart functionality
+            
+            // Basic hover effects are handled by CSS classes
+            console.log('VietRoot website loaded successfully');
+        })();
+    </script>
+</body>
+</html>
